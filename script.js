@@ -24,7 +24,7 @@
 
     },
     {
-      image: "cars/smallpic.jpg",
+      image: "Cars/smallpic.jpg",
       name: "2021 Mercedes-Benz",
       price: "$130,700",
       details: "The 2021 Mercedes-Benz E-Class comes with rear wheel drive, and all wheel drive.<br>Horsepower	523 hp <br>MPG	15/20 mpg<br><br>",
