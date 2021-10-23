@@ -120,7 +120,7 @@
       <div class="info2"><span id="carprice" class="car-price">${cars[i].price}</span></div>
       <div class="info3"><p id="cardet" class="car-details">${cars[i].details}</p></div>
       <div class="d-grid gap-2">
-      <button class="btn" type="button"><a " href="${cars[i].sec_link}"><b style="color: red;">Buy Now</b></a></button>
+      <button style="color: red;" class="btn" type="button"><a style="color: red;" href="${cars[i].sec_link}"><b style="color: red;">Buy Now</b></a></button>
       </div>
 
       </div>
