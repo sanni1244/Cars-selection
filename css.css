@@ -1,9 +1,7 @@
 body{
     margin: auto;
-    min-width: 390px;
     background-color: rgb(230, 238, 238);
-
-    
+    zoom: 100%;
 }
 
 .sec{
@@ -12,6 +10,7 @@ body{
     justify-content: center;
 
 }
+
 .nav-link b{
     font-size: 30px;
 }
@@ -24,7 +23,7 @@ body{
 .simply{
     background-color: black;
     color: white;
-}
+}*/
 .imagewidth{
     height: 11
     00px;
@@ -149,11 +148,9 @@ body{
     .display{
         display: block;
         margin-top: 30px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px;
         box-sizing: border-box;
         width: 280px;
-        border: 5px solid black;
-        border-radius: 49px;
         margin-top: 20px;
 
     }
@@ -172,14 +169,15 @@ body{
         margin: auto;
         padding: 0px 0px 20px 0px;
         box-sizing: border-box;
-        width: 400px;
+        width: 360px;
         border: 5px solid black;
         border-radius: 49px;
         margin-top: 30px;
 
     }
     .display img{
-        width: 390px;
+        
+        width: 350px;
         height: 200px;
         border-radius: 45px;
         border-bottom-left-radius: 0px;
@@ -187,13 +185,8 @@ body{
     
     }
 }
-@media(max-width: 1150px){
-    .heading{
-        width: 100%;
-        font-size: 40px;
-        
-    }
-}
+
+
 @media(max-width: 650px){
     .heading{
         font-size: 27px;
@@ -239,6 +232,12 @@ body{
     }
 }
 @media(max-width: 450px){
+    .imagewidth{
+        height: 300px;
+    }
+    
+}
+@media(max-width: 380px){
     .imagewidth{
         height: 300px;
     }
