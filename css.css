@@ -5,14 +5,26 @@ body{
 
     
 }
+
 .sec{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-
-
+.nav-link b{
+    font-size: 30px;
+}
+@media(max-width: 1150px){
+   
+.nav-link b{
+    font-size: 20px;
+}
+}
+.simply{
+    background-color: black;
+    color: white;
+}
 .imagewidth{
     height: 11
     00px;
@@ -30,9 +42,7 @@ body{
     padding-left: 100px;
     display: flex;
   }
-.navbar{
-    float: right;
-}
+
 .inform{
     margin-top: 110px;
 }
@@ -212,4 +222,25 @@ body{
    font-weight: bold;
    font-style: italic;
    margin-bottom: 30px;
+}
+@media(max-width: 1000px){
+    .imagewidth{
+        height: 450px;
+    }
+}
+@media(max-width: 700px){
+    .imagewidth{
+        height: 350px;
+    }
+    .special{
+        padding: 20px;
+        padding-top: 13px;
+        height: 70px;
+    }
+}
+@media(max-width: 450px){
+    .imagewidth{
+        height: 300px;
+    }
+    
 }
